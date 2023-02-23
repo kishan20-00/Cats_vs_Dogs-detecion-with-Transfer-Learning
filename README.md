@@ -1,1 +1,3 @@
-# Cats_vs_Dogs-detecion-with-Transfer-Learning
+<h1>Cats vs Dogs detecion with Transfer Learning</h1>
+
+<p>This project is done with the concept of <b>Transfer Learning</b>, which defines to using an already trained model with a huge dataset. So, in this notebook, I have used the ImageNet model, which has predicted about 1000 classes. I fed the Cats vs Dogs dataset from the TensorFlow Datasets and then used this pretrained model to test the accuracy of the dataset. While doing this, I considered a concept called <b>Model Freezing</b>. This is used to change the feature extractors to non-trainable state, while giving us the ability to change the classifier layer to detect for the only classes we need to predict.</p>
